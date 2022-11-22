@@ -14,11 +14,10 @@ web:
   cors: true
 #mysql配置
 mysql:
-  #host: localhost
-  host: 114.115.134.131
+  host: localhost
   username: root
-  password: ZPFIZgvCev
+  password: 123456
   dbname: alert
-  port: 30324
-  minconns: 160
+  port: 3306
+  minconns: 150
   maxconns: 200
