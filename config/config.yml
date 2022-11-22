@@ -1,0 +1,24 @@
+log:
+  # std|file
+  output: std
+  # trace|debug|info|warn
+  level: info
+  # 是否打印调用者信息
+  caller: true
+  # 日志目录
+  dir: ./log
+#web基础配置
+web:
+  port: 9682
+  #跨域开关
+  cors: true
+#mysql配置
+mysql:
+  #host: localhost
+  host: 114.115.134.131
+  username: root
+  password: ZPFIZgvCev
+  dbname: alert
+  port: 30324
+  minconns: 160
+  maxconns: 200
